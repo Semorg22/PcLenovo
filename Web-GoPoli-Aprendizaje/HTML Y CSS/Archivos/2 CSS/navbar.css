@@ -1,0 +1,40 @@
+.nav-enlace{
+    display: inline-block;
+    background: springgreen;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.nav-enlace:hover{
+    background: yellow;
+}
+nav{
+    background: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-boton{
+    background: springgreen;
+    color: #fff;
+    padding: 10px 30px;
+    border: 2px solid #fff;
+    display: none;
+}
+
+/*especifica que hacer cuando cambie el tamaño de la pantalla*/
+@media (max-width: 600px){ 
+    nav{
+        background: black;
+        flex-direction: column;
+    }
+    .nav-enlace{
+        margin: 10px 0;
+    }
+    .nav-boton{
+        display: inline-block;
+    }
+    .desaparece{
+        display: none;
+    }
+}

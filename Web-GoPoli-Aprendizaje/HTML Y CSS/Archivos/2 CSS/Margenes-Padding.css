@@ -1,0 +1,12 @@
+h1{
+    background: #e84545;
+    /* margin-left: 100px;
+    margin-bottom: 200px; */
+    /* margin: 100px; A los cuatro lados */
+    /* margin: 200px (Arriba y abajo) 100px (Arriba y abajo); */
+    margin: 100px 10px 20px 500px;
+}
+p{
+    background: #903749;
+    padding: 100px; /*Margenes internas*/
+}

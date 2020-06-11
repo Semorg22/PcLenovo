@@ -1,0 +1,9 @@
+.color{
+    color: tomato; /* Nombres predeterminados */
+}
+.verde{
+    color: rgb(60,177,71); /* RGB */
+}
+.celeste{
+    color: #00CED1; /* Exadecimal */
+}

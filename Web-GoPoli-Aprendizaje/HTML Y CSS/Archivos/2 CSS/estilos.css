@@ -1,0 +1,19 @@
+/* (etiqueta) Aplica a todos los (etiqueta) */
+h1{
+    color: blueviolet;
+    font-size: 50px;
+}
+/* # == Identificador */
+#unico{
+    color: blue;
+    font-size: 50px;
+}
+/* . == Clase */
+.azul{
+    color: blue;
+}
+.fondo{
+    background: #444;
+}
+
+/* Se leen en cascada, arriba a abajo, y van cambiando dependiendo de los que haya */
